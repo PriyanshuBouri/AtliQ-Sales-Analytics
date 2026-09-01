@@ -1,0 +1,2 @@
+1-atliq-db-no-fkeys-no-dim-table.sql filter=lfs diff=lfs merge=lfs -text
+*.pbix filter=lfs diff=lfs merge=lfs -text
