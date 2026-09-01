@@ -1,116 +1,68 @@
-# AtliQ Sales Analytics
+# 📊 AtliQ Sales Analytics — Power BI & SQL
 
-An end-to-end sales analytics project built using **MySQL** and **Power BI** to analyze sales performance across customers, products, markets, regions, and supply-chain operations.
+An end-to-end **Sales Analytics project** built using **MySQL, SQL, and Microsoft Power BI** to analyze sales performance and provide actionable business insights across different areas of the organization.
 
-## 📌 Project Overview
+The project focuses on transforming business data into interactive dashboards that help stakeholders understand sales, finance, market, supply-chain, and overall business performance.
 
-This project focuses on analyzing AtliQ's sales data using SQL for data analysis and business logic, followed by an interactive Power BI dashboard for visualization and reporting.
+---
 
-The project demonstrates an end-to-end analytics workflow:
+## 🏢 Project Overview
 
-**Raw Data → MySQL → SQL Analysis & Stored Procedures → Power BI → Business Insights**
+AtliQ Hardware is a computer hardware and peripherals business operating across multiple markets.
+
+The objective of this project is to analyze business performance and create an interactive Power BI dashboard that helps decision-makers:
+
+- Monitor sales performance
+- Analyze revenue and profitability
+- Compare market and regional performance
+- Identify top-performing customers and products
+- Analyze supply-chain performance
+- Track important business KPIs
+- Identify trends and areas requiring attention
+
+---
+
+## 🎯 Business Problem
+
+The business had a large amount of sales information but lacked an effective way to analyze and monitor it.
+
+The key challenges were:
+
+- Difficulty tracking overall sales performance
+- Limited visibility into market and regional performance
+- Difficulty identifying top customers and products
+- Lack of centralized financial and operational insights
+- Time-consuming manual analysis
+
+The goal was to build a centralized analytical solution using **SQL and Power BI** to make these insights easier to understand and use for decision-making.
+
+---
 
 ## 🛠️ Tools & Technologies
 
-- **MySQL** – Data analysis, SQL queries and stored procedures
-- **Power BI** – Interactive dashboards and data visualization
-- **SQL** – Aggregations, filtering, joins, analytical logic and stored procedures
+- **MySQL** — Data analysis and SQL querying
+- **Microsoft Power BI** — Dashboard development and visualization
+- **Power Query** — Data transformation and preparation
+- **DAX** — Measures and business calculations
+- **Git & GitHub** — Project version control and documentation
 
-## 🗄️ SQL Analysis
+---
 
-The MySQL analysis includes stored procedures developed for different business requirements, including:
+## 🔄 Project Workflow
 
-- Forecast accuracy analysis
-- Market performance analysis
-- Monthly gross sales analysis
-- Top customers by sales
-- Top markets by sales
-- Top markets by market region
-- Top products by sales
-- Top products by division
-- Gross sales analysis by market region
-
-### Stored Procedures
-
-The repository contains the following stored procedures:
-
-- `get_forecast_accuracy`
-- `get_market_badge`
-- `get_monthly_gross_sales_for_customer`
-- `get_top_n_customers_by_sales`
-- `get_top_n_gross_sales_by_market_region`
-- `get_top_n_market_by_market_region`
-- `get_top_n_market_by_sales`
-- `get_top_n_products_by_sales`
-- `get_top_n_products_per_division_by_sales`
-
-## 📊 Power BI Dashboard
-
-The Power BI dashboard provides interactive views for analyzing different areas of the business.
-
-### Home
-
-![Home Dashboard](home.png)
-
-### Sales View
-
-![Sales View](sales%20view.png)
-
-### Finance View
-
-![Finance View](finance%20view.png)
-
-### Market View
-
-![Market View](market%20view.png)
-
-### Supply Chain View
-
-![Supply Chain View](supply-chain%20view.png)
-
-### Executive View
-
-![Executive View](executive%20view.png)
-
-## 📈 Dashboard Areas
-
-The dashboard contains dedicated views for:
-
-- **Sales** – Sales performance and trends
-- **Finance** – Financial performance and key metrics
-- **Market** – Market and regional performance
-- **Supply Chain** – Supply-chain related analysis
-- **Executive** – High-level business overview
-
-## 🔍 Key Skills Demonstrated
-
-- SQL data analysis
-- MySQL stored procedures
-- Business-oriented analytical logic
-- Sales and customer analysis
-- Market and product analysis
-- Power BI dashboard development
-- Interactive data visualization
-- Business reporting
-
-## 📁 Project Contents
-
-- **SQL Stored Procedures** – SQL logic used for business analysis
-- **Power BI Dashboard Screenshots** – Visual representation of the analytical dashboard
-- **Dataset** – Source sales data used for the analysis
-- **Power BI Report** – Interactive Power BI report
-
-## 🚀 Project Workflow
-
-1. Imported the sales dataset into MySQL.
-2. Analyzed the data using SQL.
-3. Developed stored procedures for recurring business analysis.
-4. Connected the data with Power BI.
-5. Built interactive dashboards for different business functions.
-6. Used the dashboard to provide a consolidated view of sales and business performance.
-
-## 👤 Author
-
-**Priyanshu Bouri**
-
-Data Analyst | SQL | Power BI | Excel
+```text
+Data Source
+    ↓
+MySQL
+    ↓
+SQL Analysis & Stored Procedures
+    ↓
+Power BI
+    ↓
+Power Query Transformation
+    ↓
+DAX Measures
+    ↓
+Interactive Dashboard
+    ↓
+Business Insights
